@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'PLProgress_Example' do
+  pod 'PLProgress', :path => '../'
+  pod 'SnapKit'
+  
+  target 'PLProgress_Tests' do
+    inherit! :search_paths
+
+    
+  end
+  
+end

@@ -1,0 +1,6 @@
+framework module PLProgress {
+  umbrella header "PLProgress-umbrella.h"
+
+  export *
+  module * { export * }
+}

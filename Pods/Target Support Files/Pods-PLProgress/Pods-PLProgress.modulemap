@@ -1,0 +1,6 @@
+framework module Pods_PLProgress {
+  umbrella header "Pods-PLProgress-umbrella.h"
+
+  export *
+  module * { export * }
+}
