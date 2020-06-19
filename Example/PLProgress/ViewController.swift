@@ -18,7 +18,18 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor.lightGray.cgColor //剩余进度颜色（即进度槽颜色）
         return view
     }()
-
+    
+    lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.text = "下一种方式"
+        return label
+    }()
+    
+    lazy var animatorView: PLAnimatorView = {
+        let view = PLAnimatorView()
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -29,6 +40,13 @@ class ViewController: UIViewController {
 //        UIApplication.willEnterForegroundNotification
         NotificationCenter.default.addObserver(self, selector: #selector(enterFG), name: NSNotification.Name.UIApplicationWillEnterForeground, object: nil)
 
+        
+        view.addSubview(titleLabel)
+        titleLabel.frame = CGRect(x: 20, y: 150, width: 100, height: 40)
+        
+        // 注意：：：：：：：：：：这个方法只能在iOS11之后使用
+        view.addSubview(animatorView)
+        animatorView.frame = CGRect(x: 10, y: 200, width: 300, height: 10)
         
     }
     

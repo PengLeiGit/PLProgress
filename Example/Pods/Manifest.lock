@@ -1,5 +1,6 @@
 PODS:
-  - PLProgress (0.1.0)
+  - PLProgress (1.1.1):
+    - SnapKit
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
@@ -15,7 +16,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PLProgress: 4aa820bfdc810c47eace23a66f77dd59f7b7c0ef
+  PLProgress: b8ef2fb39df3b8e5628b30ed109853cc555f3c15
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
 PODFILE CHECKSUM: 30808f9d18c6140ec2a3e040dbe7a043a518e222

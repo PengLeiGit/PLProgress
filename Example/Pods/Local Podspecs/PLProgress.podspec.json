@@ -1,9 +1,9 @@
 {
   "name": "PLProgress",
-  "version": "0.1.0",
+  "version": "1.1.1",
   "summary": "A short description of PLProgress.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1248667206@qq.com/PLProgress",
+  "homepage": "https://github.com/PengLeiGit/PLProgress",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "1248667206@qq.com": "penglei@theduapp.com"
   },
   "source": {
-    "git": "https://github.com/1248667206@qq.com/PLProgress.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/PengLeiGit/PLProgress.git",
+    "tag": "1.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "PLProgress/Classes/**/*"
+  "source_files": "PLProgress/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  }
 }
